@@ -1163,8 +1163,16 @@ class HomeView extends GetView<HomeController> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Image.asset(
-          'assets/icons/qr.png',
+        child: Column(
+          children: [
+            SizedBox(
+              height: 8,
+            ),
+            Image.asset(
+              'assets/icons/qr.png',
+            ),
+            Text("PAY")
+          ],
         ),
         backgroundColor: Colors.blue,
       ),
