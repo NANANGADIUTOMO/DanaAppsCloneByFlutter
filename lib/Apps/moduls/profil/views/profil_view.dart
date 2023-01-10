@@ -751,7 +751,7 @@ class ProfilView extends GetView<ProfilController> {
                             child: ElevatedButton(
                                 style: ElevatedButton.styleFrom(
                                     primary: Colors.white),
-                                onPressed: () => Get.offAllNamed(Routes.HOME),
+                                onPressed: () => Get.offAllNamed(Routes.LOGIN),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
